@@ -1,0 +1,264 @@
+.center {
+    text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo 2', cursive; /* font-family: 'Exo 2', sans-serif; */
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+#nav::before{
+    content: "";
+    background: url('./home1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:125%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.cont_menu{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    align-items: center;
+    justify-content: space-around;
+    height:12vh;
+    /* flex: 1; */
+   
+}
+#elements ul{
+    display: flex;
+    /* margin-left: 25px; */
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    /* position: absolute;
+    left:0px;
+    margin: 1px 10px;
+    font-weight: bold; */
+    /* padding: 2px; */
+}
+#nav ul li{
+    list-style: none;
+    font-size: 1.8rem;
+    
+    /* padding: 5px 5px;
+    margin: 10px 25px; */
+    
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px ;
+    margin: 10px 25px;
+    border-radius: 10px;
+    
+}
+#nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+#nav img{
+    height: 50px;
+    width:50px;
+    border-radius: 150px;
+    margin-bottom: 2px;
+}
+#nav .cont_menu h2{
+    color: white;
+    font-size: 1.5rem;
+}
+#book{
+    /* position: absolute;
+    right: 0px;
+    margin: 5px 10px;
+    margin-right: 10px; */
+}
+#btn{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(90, 90, 88);
+    color: rgb(247, 5, 5);
+}
+
+/* Home section */
+#home{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 45vh;
+    /* border: 2px solid red; */
+    padding: 5px 10px;
+    margin:2px 0px;
+   
+}
+#home p{
+    margin: 25px 0;
+    font-size: 1.3rem;
+
+}
+#guests, #welcome{
+    font-size: 2rem;
+    margin: 2px 0px;
+}
+
+/* rooms */
+#rooms{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 67vh;
+}
+#rooms .all{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    width: 100%;
+    margin: auto;
+    
+    align-items: center;
+    justify-content:center;
+    
+    
+    
+} 
+#rooms>div>div{
+    /* border: 2px solid green; */
+    width: 450px;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+#rooms>div>div>img{
+    width: 400px;
+}
+#rooms>h1{
+    margin: 27px 0px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+#rooms>div>div>p{
+    font-size: 1.1rem;
+}
+
+/* aboutUS  */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top:-7px ;
+    
+    color: white;
+}
+#about>div{
+    width: 40%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 64px 0px;
+    padding: 70px 150px;
+    /* height: 120%; */
+}
+#about>div>h1{
+    font-size: 2 rem;
+    margin: 40px 0px ;
+}
+#about>div>p{
+    font-size: 1.1rem;
+}
+
+/* Contact US */
+#contact{
+    /* background-color: red; */
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+#contact>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#fdb{
+    height: 250px;
+    width: 400px;
+    border-radius: 25px;
+}
+#submit{
+    width: 400px;
+    cursor: pointer;
+    font-size: 1.9rem;
+    margin:5px 0px;
+    padding: 15px 4px;
+    border-radius: 20px;
+    color: rgb(223, 128, 12);
+}
+#contact>div>input{
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin:8px 0px;
+    width: 400px;
+    text-align: center;
+}
+#contact::before{
+    content: "";
+    position:absolute;
+    background: url('./gallery.jpg') no-repeat center center/cover;
+    left: 0px;
+    width: 100%;
+    height: 104%;
+    z-index: -1;
+    opacity: 0.5;
+    /* flex: 1; */
+}
+#contact>div{
+    font-size: 1.5rem;
+    height: 800px;
+    /* flex: 1; */
+    
+}
+
+
+
+
+

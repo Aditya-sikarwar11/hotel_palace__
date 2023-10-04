@@ -1,0 +1,76 @@
+/* nav section */
+.cont_menu{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+#nav::before{
+    content: "";
+    background: url('./home1.jpg')  no-repeat center center/cover;
+   
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#nav ul li a{
+
+    padding: 4.5px;
+    margin: 8px 20px;
+
+}
+ */
+
+
+ /* home section */
+#home{
+  
+
+    height: 50vh;
+ 
+   
+}
+   
+    
+
+
+/* rooms  section */
+#rooms{
+    height: 163vh;
+    
+}
+#rooms .all{
+    display: flex;
+    flex-direction: column;
+}
+#rooms>div>div>img{
+    width: 360px;
+}
+#rooms>h1{
+    margin: 20px 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+/* about section */
+#about>div{
+    width: 60%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 34px 0px;
+    padding: 10px 30px;
+    text-align: center;
+    /* height: 120%; */
+}
+
+/* contact section */
+#contact>div>input{
+ 
+    width: 380px;
+    /* text-align: center; */
+}
